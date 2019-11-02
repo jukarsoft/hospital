@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Juan Carlos">
+	<title>Mantenimiento Hospital</title>
+	<!-- link para poner un Icono de la aplicación -->
+	<link rel="shortcut icon" href="img/hospital.ico" type="image/x-icon">
+	<link rel="icon" href="img/hospital.ico" type="image/x-icon">
+	<link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/hospital.css">
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/altaPaciente.js"></script>
+	<script type="text/javascript" src="js/bajaPaciente.js"></script>
+	<script type="text/javascript" src="js/modifPaciente.js"></script>
+	<script type="text/javascript" src="js/consultaPaciente.js"></script>
+	<script type="text/javascript" src="js/consultaPacientes.js"></script>
+
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<h1 id="title"><img src="img/hospital.gif"> HOSPITAL</h1>
+	</div>
+	<div class="row">
+		<div id="colLeft" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<h4 id="title2">Pacientes:</h4>
+			<table id='pacientes'></table><br>
+			<center id='paginas'></center>
+		</div>
+		
+		<div id="colMedium" class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+		<div id="colRight" class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+			<form id='formulario'>
+				<input type="hidden" id='idpaciente' name="idpaciente">
+				<label>NIF:</label>
+				<input type="text" id="nif" name="nif">
+				<br><br>
+				<label>Nombre:</label>
+				<input type="text" id="nombre" name="nombre">
+				<br><br>
+				<label>Apellidos:</label>
+				<input type="text" id="apellidos" name="apellidos">
+				<br><br>
+				<label>Fecha Ingreso:</label>
+				<input type="date" id="fechaingreso" name="fechaingreso">
+				<br><br>
+				<label>Fecha Alta:</label>
+				<input type="date" id="fechaalta" name="fechaalta">
+				<br><br>
+				<input type="button" id="alta" value='Alta paciente'>
+				<input type="button" id="modificacion" value='Modificar paciente'>
+				<input type="button" id="baja" value='Baja paciente'>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>

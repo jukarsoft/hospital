@@ -1,0 +1,17 @@
+	* {vertical-align: top;}
+	#colLeft{background: pink; border-radius: 15px; padding: 15px}
+	#colMedium{background: white;}
+	#colRight{background: paleGreen; border-radius: 15px; padding: 15px}
+	#title{text-align: center; color: white; text-shadow: 2px 2px 2px black; font-size: 4em; background: gray}
+	li {list-style: none; display: inline-block;margin-right: 15px;}
+	form {width: 90%; padding:20px; border:2px solid grey; margin:auto;}
+	label {width: 160px;}
+	table, td, th {border: 1px solid grey; margin:auto;}
+	td, th {padding: 5px; width:150px;}
+	h2 {text-align: center;}
+	#title2 {font-weight: bold; color:black;}
+	a {margin-right: 10px;}
+	img {width: 50px;}
+	td {cursor: pointer;}
+	#paginas span {color:blue; cursor:pointer}
+	.error {background-color: lightgrey;}
